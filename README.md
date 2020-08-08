@@ -6,28 +6,28 @@ This dataset contains 3,682 records of courses from 4 subjects (Business Finance
 
 Udemy is a massive online open course (MOOC) platform that offers both free and paid courses. Anybody can create a course, a business model by which allowed Udemy to have hundreds of thousands of courses.
 
-This data has the following column names(explanation attached).
+This data has the following column names(explanation attached) as well ad the data types that these columns represent.
 
-`course_id` - Course ID
+`course_id` - Course ID (numerical)
 
-`course_title` - Course Title
+`course_title` - Course Title (Categorical)
 
-`url` - Course URL
+`url` - Course URL (web address)
 
-`is_paid` - Whether the course is free or paid
+`is_paid` - Whether the course is free or paid (boolean)
 
-`price` - Course Price
+`price` - Course Price (numerical)
 
-`num_subscribers` - Number of subscribers
+`num_subscribers` - Number of subscribers (numerical)
 
-`num_reviews` - Number of reviews
+`num_reviews` - Number of reviews (numerical)
 
-`num_lectures` - Number of lectures
+`num_lectures` - Number of lectures (numerical)
 
-`level` - Course difficulty
+`level` - Initial knowledge level of subscribers (categorical)
 
-`content_duration` - Duration of all course materials
+`content_duration` - Duration of all course materials (numerical and measured in hours)
 
-`published_timestamp` - Date that the course was published
+`published_timestamp` - Date that the course was published (datetime)
 
-`subject`- Course subject
+`subject`- Course subject (categorical)
